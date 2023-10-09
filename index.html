@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JavaScript</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+        <header>
+            <h1>Desafios em JavaScript!</h1>
+            <img src="images/javascriptimage.jpg" alt="JavaScript Image" width="700px">
+        </header>
+    
+        <section>
+            <h2>Desafio 01</h2>
+            <p>A internet possibilitou o surgimento de uma nova maneira de escutar música, conhecida por streaming, em que a música é transmitida pela Internet em tempo real, ou on-line, sem ser armazenada pelo usuário (aliás, como ocorre com o rádio).
+                Leonardo encontrou, no site de uma revista sobre música, a lista com o número de vezes que músicas foram tocadas on-line durante a semana passada. Leandro ficou então curioso em saber qual foi o maior número de vezes que uma música foi tocada (em outras palavras, quantas vezes a música mais tocada foi tocada). O problema é que a lista não está ordenada, e o número de músicas é muito grande. Você pode ajudá-lo?</p>
+            <br>
+            <div>
+                <input type="number" placeholder="Digite o número de Músicas" id="qnt">
+                <input type="text" placeholder="Musicas" id="mus">
+                <button onclick="streaming()">Calcular</button>
+            </div>
+            <p id="res"></p>
+        </section>
+    
+        <section>
+            <h2>Desafio 02</h2>
+            <p>Dona Vilma é uma professora muito querida pelos alunos. Além de ser uma ótima professora, ela costuma distribuir balas e bombons para quem tira a melhor nota nos testes. Ela pediu para você escrever um programa que, dada uma lista com os nomes dos alunos e as respectivas notas, determina o nome do aluno que tirou a maior nota.</p>
+                <br>
+            <div>
+                <input type="number" placeholder="Quantos alunos" id="qntAlunos">
+                <input type="text" id="alunos">
+                <button onclick="alunos()">Alunos</button>
+                <p></p>
+            </div>   
+        </section>
+    </main>
+
+    <footer>
+        <h2>Membros do grupo!</h2>
+        <div class="div">
+            <figure>
+                <img src="images/membros/macedo.jfif">
+                <figcaption>Macedo</figcaption>
+            </figure>   
+            <figure>
+                <img src="images/membros/snipermonkey.jpg">
+                <figcaption>SniperMonkey</figcaption>
+            </figure>
+            <figure>
+                <img src="images/membros/spola157.webp">
+                <figcaption>Spola157</figcaption>
+            </figure>
+            <figure>
+                <img src="images/membros/timexp.jpg">
+                <figcaption>timexP</figcaption>
+            </figure>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
